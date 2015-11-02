@@ -13,5 +13,5 @@
   ;;                       [ring-mock "0.1.5"]]}})
   :dependencies [[org.clojure/clojure "1.6.0"]
                  [http-kit "2.1.18"]]
-  :main ^:skip-aot uklala.boot
+  :main uklala.boot
   )

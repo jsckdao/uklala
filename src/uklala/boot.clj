@@ -27,4 +27,6 @@
   (route/not-found "<p>Page not found.</p>"))
 
 
-(run-server (site #'all-routes) { :port 3100 })
+(defn -main [argv]
+  (run-server (site #'all-routes) { :port 3100 }))
+

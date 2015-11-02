@@ -4,7 +4,10 @@
 /checkouts
 pom.xml
 pom.xml.asc
+.idea
 *.jar
 *.class
 /.lein-*
 /.nrepl-port
+*.iml
+
